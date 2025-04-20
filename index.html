@@ -1,18 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shaik Mahabbi - DevOps Engineer Portfolio">
+  <title>Shaik Mahabbi | DevOps Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    h1 { color: #333; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0 20px;
+      line-height: 1.6;
+      background: #fff;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      margin: 30px 0;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .contact-info {
+      font-size: 0.95em;
+      color: #555;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      border-bottom: 2px solid #000;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    .job-title {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .job-date {
+      float: right;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .education-entry {
+      margin-top: 10px;
+    }
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello! I'm [Your Name]</h1>
-  <p>Welcome to my portfolio.</p>
-  <ul>
-    <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-    <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
-  </ul>
+
+  <header>
+    <h1>Shaik Mahabbi</h1>
+    <div class="contact-info">
+      Hyderabad, India | 
+      <a href="mailto:shaik.mahabbi1208@gmail.com">shaik.mahabbi1208@gmail.com</a> | 
+      <a href="tel:+919177896016">+91 9177896016</a> | 
+      <a href="https://linkedin.com/in/shaikmahabbi1208" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/ShaikMahabbi123" target="_blank">GitHub</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p>DevOps Engineer with 3+ years of experience in cloud infrastructure automation utilizing Terraform, AWS recognized for orchestrating multi-region deployments that improved scalability by 40% and automated CI/CD pipelines that improved deployment efficiency by 30%.</p>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <table>
+      <tr><th>Cloud Technologies</th><td>AWS</td></tr>
+      <tr><th>Version Control</th><td>Git, GitHub, GitLab</td></tr>
+      <tr><th>CI/CD</th><td>Jenkins</td></tr>
+      <tr><th>Infrastructure as Code (IaC)</th><td>Terraform</td></tr>
+      <tr><th>Configuration Management</th><td>Ansible</td></tr>
+      <tr><th>Scripting Languages</th><td>Python, Shell</td></tr>
+      <tr><th>Monitoring Tools</th><td>Prometheus, Grafana, CloudWatch</td></tr>
+      <tr><th>Databases</th><td>DynamoDB, MySQL</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+    <div class="job-title">Tata Consultancy Services, DevOps Engineer <span class="job-date">Dec 2021 – Present</span></div>
+    <ul>
+      <li>Orchestrated cloud infrastructure on <strong>AWS</strong> using <strong>Terraform</strong>, improving scalability by 40%.</li>
+      <li>Automated CI/CD pipelines with <strong>Jenkins</strong>, reducing deployment time and manual effort.</li>
+      <li>Monitored and resolved <strong>Terraform drifts</strong> for infrastructure stability.</li>
+      <li>Deployed microservices on <strong>AWS EKS</strong> using <strong>Docker</strong> and <strong>Kubernetes</strong>.</li>
+      <li>Used <strong>Git</strong> and <strong>GitLab</strong> for version control, improving collaboration.</li>
+      <li>Automated tasks with <strong>Python</strong> and <strong>Shell</strong> scripts to enhance efficiency.</li>
+      <li>Strong grasp of AWS services like <strong>EC2, EKS, S3, VPC, RDS, IAM, Auto Scaling</strong>.</li>
+      <li>Implemented monitoring with <strong>Prometheus</strong>, <strong>Grafana</strong>, and <strong>CloudWatch</strong>.</li>
+      <li>Used <strong>Ansible</strong> for configuration management.</li>
+      <li>Worked in <strong>Agile</strong> teams, conducted stand-ups, sprint meetings, and retrospectives.</li>
+      <li>Created documentation and mentored teammates on DevOps best practices.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="education-entry">
+      <strong>Chebrolu Engineering College</strong> — Bachelor of Technology in Electronics & Communication Engineering<br>
+      <small>Jul 2017 – Aug 2021, Chebrolu, India</small>
+    </div>
+  </section>
+
 </body>
 </html>
